@@ -85,7 +85,17 @@ var argv = require('minimist')(process.argv.slice(2), {
     
     gulp.src('./src/layuiadmin/style/res/*')
     .pipe(gulp.dest(destDir + '/layuiadmin/style/res'));
-    
+
+    //test 复制layui
+    gulp.src('./src/layuiadmin/layui/****/***/**/*')
+        .pipe(gulp.dest(destDir + '/layuiadmin/layui'));
+    gulp.src('./src/layuiadmin/layui/***/**/*')
+        .pipe(gulp.dest(destDir + '/layuiadmin/layui'));
+    gulp.src('./src/layuiadmin/layui/**/*')
+        .pipe(gulp.dest(destDir + '/layuiadmin/layui'));
+    gulp.src('./src/layuiadmin/layui/*')
+        .pipe(gulp.dest(destDir + '/layuiadmin/layui'));
+
     return gulp.src('./src/views/**/*')
     .pipe(gulp.dest(destDir + '/views'));
   }
