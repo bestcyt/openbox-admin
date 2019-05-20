@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98168527-a408-41b9-b1ba-3067140761ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/lib/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/lib/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/lib/extend/echartsTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/lib/extend/echartsTheme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/lib/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/lib/view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/console.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/console.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/contlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/contlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/forum.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/forum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/im.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/im.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/sample.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/senior.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/senior.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/set.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/set.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/useradmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/useradmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/modules/workorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/modules/workorder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/style/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/style/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/style/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/style/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layuiadmin/style/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layuiadmin/style/template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layuiadmin/modules/set.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layuiadmin/modules/set.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="451" column="25" selection-start-line="451" selection-start-column="25" selection-end-line="451" selection-end-column="25" />
+            <state relative-caret-position="223">
+              <caret line="451" selection-start-line="451" selection-end-line="451" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -44,6 +24,22 @@
                 <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/set/system/website.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1657" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/layuiadmin/modules/set.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -66,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="140">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -83,8 +79,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/views/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/views/index.html" />
+        <option value="$PROJECT_DIR$/src/layuiadmin/modules/set.js" />
       </list>
     </option>
   </component>
@@ -121,6 +118,40 @@
               <item name="openbox-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="openbox-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openbox-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openbox-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layuiadmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openbox-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openbox-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layuiadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openbox-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openbox-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openbox-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openbox-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="set" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openbox-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openbox-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="set" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,17 +191,18 @@
       <updated>1558079361374</updated>
       <workItem from="1558079362578" duration="3976000" />
       <workItem from="1558316751842" duration="607000" />
+      <workItem from="1558333603975" duration="757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4583000" />
+    <option name="totallyTimeSpent" value="5340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16868381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -196,20 +228,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="451" column="25" selection-start-line="451" selection-start-column="25" selection-end-line="451" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1940">
@@ -226,8 +244,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="140">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/set/system/website.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1657" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layuiadmin/modules/set.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>

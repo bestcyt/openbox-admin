@@ -6,7 +6,7 @@
  @License: LPPL
     
  */
- 
+layer.msg('this is set website');
 layui.define(['form', 'upload'], function(exports){
   var $ = layui.$
   ,layer = layui.layer
