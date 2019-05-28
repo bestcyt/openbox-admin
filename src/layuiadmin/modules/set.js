@@ -6,7 +6,7 @@
  @License: LPPL
     
  */
-layer.msg('this is set website');
+
 layui.define(['form', 'upload'], function(exports){
   var $ = layui.$
   ,layer = layui.layer
@@ -53,15 +53,13 @@ layui.define(['form', 'upload'], function(exports){
     layer.msg(JSON.stringify(obj.field));
     
     //提交修改
-    /*
     admin.req({
-      url: ''
+      url: 'http://openbox-api.test/api/hello'
       ,data: obj.field
-      ,success: function(){
-        
+      ,success: function(res){
+        layer.msg(res.msg);
       }
     });
-    */
     return false;
   });
   
