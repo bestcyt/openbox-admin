@@ -33,14 +33,14 @@
           <div class="layui-card-header">普通图片上传</div>
           <div class="layui-card-body">
             <div class="layui-upload">
-              <button type="button" class="layui-btn" id="test-upload-normal">上传图片</button>
+              <button type="button" class="layui-btn" id="test-upload-normal">上传的的图片</button>
               <div class="layui-upload-list">
                 <img class="layui-upload-img" id="test-upload-normal-img">
                 <p id="test-upload-demoText"></p>
               </div>
             </div> 
             <blockquote class="layui-elem-quote">
-            为节省服务器开销，以下示例均未配置真实上传接口，所以每次上传都会报提示：请求上传接口出现异常，这属于正常现象。 
+            啊啊啊啊啊为节省服务器开销，以下示例均未配置真实上传接口，所以每次上传都会报提示：请求上传接口出现异常，这属于正常现象。
             </blockquote>   
           </div>
         </div>
@@ -114,7 +114,7 @@
     //普通图片上传
     var uploadInst = upload.render({
       elem: '#test-upload-normal'
-      ,url: '/upload/'
+      ,url: 'http://openbox-api.test/api/admin/video/post'
       ,before: function(obj){
         //预读本地文件示例，不支持ie8
         obj.preview(function(index, file, result){
@@ -127,6 +127,7 @@
           return layer.msg('上传失败');
         }
         //上传成功
+        $('#test-upload-normal-img').attr('src', res.url); //图片链接（base64）
       }
       ,error: function(){
         //演示失败状态，并实现重传
@@ -174,7 +175,7 @@
     });
     upload.render({
       elem: '#test-upload-type3'
-      ,url: '/upload/'
+      ,url: 'http://openbox-api.test/api/admin/video'
       ,accept: 'video' //视频
       ,done: function(res){
         console.log(res)
